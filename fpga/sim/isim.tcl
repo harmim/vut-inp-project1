@@ -45,8 +45,7 @@
 
 #Run simulation
 #========================================
-proc isim_script {}
-{
+proc isim_script {} {
 	add_divider "8x8 LED CONTROL"
 	add_wave_label "" "RESET" /testbench/uut/reset
 	add_wave_label "-color #ff8000" "SMCLK" /testbench/uut/smclk
